@@ -68,7 +68,7 @@ let skills = document.querySelector(".about .skills");
 let spans = document.querySelectorAll(".about .skills .all-progres .box .progres .prog-con span");
 
 window.onscroll = function () {
-  if (window.scrollY >= skills.offsetTop - 400) {
+  if (window.scrollY >= skills.offsetTop - 200) {
     spans.forEach((span) => {
       span.style.width = span.dataset.width;
     });
